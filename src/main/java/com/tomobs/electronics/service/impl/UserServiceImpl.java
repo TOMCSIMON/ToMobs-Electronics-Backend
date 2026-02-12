@@ -1,6 +1,6 @@
 package com.tomobs.electronics.service.impl;
 
-import com.tomobs.electronics.dto.UserRegistrationDTO;
+import com.tomobs.electronics.dto.request.UserRegistrationDTO;
 import com.tomobs.electronics.enums.RoleEnum;
 import com.tomobs.electronics.exception.RoleNotFoundException;
 import com.tomobs.electronics.exception.UserAlreadyExistsException;

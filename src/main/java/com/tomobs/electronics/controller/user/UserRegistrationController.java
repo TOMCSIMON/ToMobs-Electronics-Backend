@@ -1,6 +1,6 @@
 package com.tomobs.electronics.controller.user;
 
-import com.tomobs.electronics.dto.UserRegistrationDTO;
+import com.tomobs.electronics.dto.request.UserRegistrationDTO;
 import com.tomobs.electronics.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("api/v1/users")
 @RequiredArgsConstructor
 public class UserRegistrationController {
 
