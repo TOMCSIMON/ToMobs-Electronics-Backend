@@ -4,6 +4,9 @@ import com.tomobs.electronics.enums.RoleEnum;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.security.core.GrantedAuthority;
+
+import java.util.List;
 
 @Entity
 @Table(name = "roles")

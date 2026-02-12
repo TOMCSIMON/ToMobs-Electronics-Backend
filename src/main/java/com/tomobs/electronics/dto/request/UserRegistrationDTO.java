@@ -1,4 +1,4 @@
-package com.tomobs.electronics.dto;
+package com.tomobs.electronics.dto.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
