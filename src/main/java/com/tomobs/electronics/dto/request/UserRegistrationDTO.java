@@ -1,4 +1,4 @@
-package com.tomobs.electronics.dto;
+package com.tomobs.electronics.dto.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -18,7 +18,6 @@ public class UserRegistrationDTO {
     @Email
     private String email;
 
-    @Size(min = 10, max = 15)
     private String phoneNumber;
 
     @NotBlank(message = "Password should not be blank")
