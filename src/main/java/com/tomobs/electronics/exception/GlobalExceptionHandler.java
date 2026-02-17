@@ -49,6 +49,9 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleValidationException(MethodArgumentNotValidException ex) {
 
+        ex.getBindingResult().getFieldErrors().forEach(error ->
+                System.out.println("Validation Error in " + error.getField() + ": " + error.getDefaultMessage())
+        );
         List<String> errors = ex.getBindingResult()
                 .getFieldErrors()
                 .stream()

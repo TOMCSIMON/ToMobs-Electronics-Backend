@@ -2,7 +2,7 @@ package com.tomobs.electronics.security.services;
 
 import com.tomobs.electronics.dto.request.LoginRequest;
 import com.tomobs.electronics.dto.response.JwtResponse;
-import com.tomobs.electronics.security.JwtUtils;
+import com.tomobs.electronics.utils.JwtUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

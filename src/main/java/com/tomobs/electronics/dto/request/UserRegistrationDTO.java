@@ -18,7 +18,6 @@ public class UserRegistrationDTO {
     @Email
     private String email;
 
-    @Size(min = 10, max = 15)
     private String phoneNumber;
 
     @NotBlank(message = "Password should not be blank")

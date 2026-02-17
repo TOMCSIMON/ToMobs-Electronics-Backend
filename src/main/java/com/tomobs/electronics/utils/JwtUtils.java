@@ -1,4 +1,4 @@
-package com.tomobs.electronics.security;
+package com.tomobs.electronics.utils;
 
 import com.tomobs.electronics.security.services.UserDetailsImpl;
 import io.jsonwebtoken.Jwts;

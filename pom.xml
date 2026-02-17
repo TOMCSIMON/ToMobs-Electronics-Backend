@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tomobs</groupId>
-	<artifactId>electronics</artifactId>
+	<artifactId>ToMobs-Electronics-Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>electronics</name>
 	<description>Electronics e-commerce application using EAV model SQL DB</description>
@@ -112,6 +112,21 @@
 			<artifactId>jjwt-jackson</artifactId>
 			<version>0.11.5</version>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
